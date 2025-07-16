@@ -1,16 +1,26 @@
 # TaskTracker
 
 For the backend setup,
+
 python -m venv env_tasktracker
+
 .\env_tasktracker\Scripts\activate
+
 pip install django djangorestframework djangorestframework-simplejwt django-cors-headers
+
 pip install drf-yasg
 
+
 For the frontend setup,
+
 npx create-react-app@latest frontend
+
 cd frontend
+
 npm install axios react-router-dom
+
 npm install @hello-pangea/dnd
+
 
 Full interactive Swagger API docs available at:
 http://localhost:8000/swagger/
